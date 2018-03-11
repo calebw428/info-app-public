@@ -14,6 +14,7 @@ public class InfoMain {
 		  ld.getYear()));
 		System.out.println("OS name:\t" + System.getProperty("os.name"));
 		System.out.println("OS version:\t" + System.getProperty("os.version"));
+		System.out.println("OS arch:\t" + System.getProperty("os.arch"));
 		System.out.println("Java version:\t" + System.getProperty("java.version"));
 		System.out.println("Java vendor:\t" + System.getProperty("java.vendor"));
 		
