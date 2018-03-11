@@ -12,8 +12,10 @@ public class InfoMain {
 		  ld.getMonth().getDisplayName(TextStyle.FULL, Locale.US), 
 		  ld.getDayOfMonth(), 
 		  ld.getYear()));
-		System.out.println("OS:\t\t" + System.getProperty("os.name"));
+		System.out.println("OS name:\t" + System.getProperty("os.name"));
+		System.out.println("OS version:\t" + System.getProperty("os.version"));
 		System.out.println("Java version:\t" + System.getProperty("java.version"));
 		System.out.println("Java vendor:\t" + System.getProperty("java.vendor"));
+		
 	}
 }
