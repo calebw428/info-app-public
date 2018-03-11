@@ -12,5 +12,6 @@ public class InfoMain {
 		  ld.getMonth().getDisplayName(TextStyle.FULL, Locale.US), 
 		  ld.getDayOfMonth(), 
 		  ld.getYear()));
+		System.out.println("OS:\t\t" + System.getProperty("os.name"));
 	}
 }
